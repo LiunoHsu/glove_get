@@ -1,0 +1,13 @@
+{
+    "device_pack_id": "0",
+    "session_id": "0",
+    "device_id": "customized_glove",
+    "left_source": "192.168.8.143:3333",
+    "right_source": "",
+    "left_sensor_class": "Wifi32",
+    "right_sensor_class": "Usb32",
+    "left_mac": "8c:8c:29:55:60:b4",
+    "right_mac": null,
+    "mp4_start_time": 1791799339.3789656,
+    "mp4_hw_start_time": null
+}
