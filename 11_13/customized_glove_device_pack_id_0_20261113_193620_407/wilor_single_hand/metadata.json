@@ -1,0 +1,22 @@
+{
+  "source": "../video.mp4",
+  "processed_frames": 1093,
+  "source_frames": 1093,
+  "fps": 30.0,
+  "detections": 1091,
+  "frames_with_hands": 1091,
+  "seconds": 847.2,
+  "model": "WiLoR",
+  "tracking_counts": {
+    "detected": 1018,
+    "optical_flow": 73,
+    "empty": 2
+  },
+  "forced_hand": "right",
+  "tracking": "LK forward-backward check, candidate continuity, max 8 flow-only frames",
+  "geometry_smoothing": "causal EMA vertices/joints 0.75 current, camera 0.8 current",
+  "detector_confidence": 0.15,
+  "frame_index_base": 0,
+  "vertices_and_joints": "hand-centered; add camera_translation for camera coordinates",
+  "coordinate_units": "meters"
+}
