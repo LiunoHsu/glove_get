@@ -1,0 +1,33 @@
+{
+  "units": "meters",
+  "T_centered_from_source": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -0.12799999635
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -0.12799999234999998
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -0.0476322479
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_mesh": "source_m.obj",
+  "centered_mesh": "visual_centered_m.obj",
+  "source_name": "kettle_meter.obj",
+  "scale_status": "Model units retained from supplied meter mesh; no independent physical measurement"
+}

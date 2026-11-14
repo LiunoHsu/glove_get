@@ -1,0 +1,32 @@
+{
+  "sequence": "333",
+  "object": "cup",
+  "variant": "mask_recovery_full",
+  "frames": 1166,
+  "decoded_video_frames": 1166,
+  "fps": 30.0,
+  "seconds": 38.86666666666667,
+  "screen_pass_frames": 1122,
+  "screen_rule": "Visible blue mask covered >=60%, full silhouette IoU >=0.25, consecutive step <=3cm and <=20deg; heuristic only",
+  "screening_mask_source": "Original visible blue segmentation, independent diagnostic for both candidates",
+  "estimation_mask_source": "Existing visible blue masks",
+  "median_visible_blue_coverage": 0.9617819912775236,
+  "median_full_silhouette_iou": 0.8158097746561311,
+  "hand_model": "Previously calibrated WiLoR trajectory; unchanged in this iteration",
+  "time_alignment_status": "Software-time alignment retained; physical/hardware synchronization unverified",
+  "no_contact_snapping": true,
+  "no_interpolation": true,
+  "status": "Full-length processed visualization, residual pose/depth/hand-contact errors remain",
+  "source_revisions": {
+    "FoundationPose--": "e4ac06dbede4c8dbf4fb778c5c8666ce8c955a38",
+    "RGBTrack": "23e43f832b82f4813d6ab72773779bf8d2ee4d83",
+    "sam2": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+    "Depth-Anything-V2": "a561b849ebae10a6f5ef49e26c83cbbcd36c71bf"
+  },
+  "files_sha256": {
+    "hand_object_overlay.mp4": "5a04d6af889ec2a0713a08e3ad1eef563c60ffbca068fff05523b00c26ff7085",
+    "processed_trajectory.npz": "7ad8ef2979e9021d7dcbbad61db70d9515309077d10cb2b76f9bb81d5d9d1701",
+    "frame_quality.csv": "3929ccb18b8fbfaed9849ae5d34f167f7e508475c0631d4f1da8a366e525913f",
+    "preview.jpg": "30cf920ff888a1580e1e12515df4619a25536a40de89d634cd1dc185809fa1cf"
+  }
+}
